@@ -31,3 +31,9 @@ span {
   font-size:;
   font-family: 'Roboto', sans-serif;
 }
+
+.card-img-top {
+
+max-height: 800px;
+max-width: 800px;
+}
