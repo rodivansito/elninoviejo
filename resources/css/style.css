@@ -15,15 +15,23 @@ html {
 .container {
   margin-top: 2rem;
 }
+h1 {
+  font-weight: bold;
+  font-size: 3rem;
+}
 
 h5 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+p {
+  font-size: 1.5rem;
 }
 
 li {
   list-style-type: decimal;
-  font-size: ;
+  font-size: 1.5rem;
   font-family: 'Roboto', sans-serif;
 }
 span {
@@ -36,4 +44,8 @@ span {
 
 max-height: 800px;
 max-width: 800px;
+}
+
+.card-body {
+  margin-left: 0.75rem;
 }
