@@ -57,4 +57,12 @@ max-width: 800px;
 .btn {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  background-color: #FF6736;
+  border-color: #FF6736;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #FF6736;
+  border-color: #FF6736;
 }
