@@ -23,14 +23,14 @@ h2 {
 h5 {
   font-size: 1.75rem;
   font-family: 'Roboto', sans-serif;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 
 }
 p {
   font-size: 1.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 li {
@@ -52,4 +52,9 @@ max-width: 800px;
 
 .card-body {
   margin-left: 0.75rem;
+}
+
+.btn {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
