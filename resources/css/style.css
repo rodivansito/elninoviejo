@@ -66,3 +66,9 @@ max-width: 800px;
   color: #FF6736;
   border-color: #FF6736;
 }
+.timer {
+
+  color: red;
+  border-style: ridge;
+  border-color: red;
+}
