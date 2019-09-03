@@ -36,48 +36,7 @@
   </head>
 
   <body>
-    <section>
-      <!-- Display the countdown timer in an element -->
-<p id="demo"></p>
-
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Sept 4, 2019 20:00:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
-</section>
- 
-    <section>
-      <nav class="text-center">
-        <img src="./resources/images/elninoviejo.png" alt="">
-      </nav>
-    </section>
-
+    
     <section>
       <div class="card mb-3">
         <img src="./resources/images/Principal .jpg" class="card-img-top" alt="...">
@@ -165,7 +124,43 @@ La Transformación Que Realmente Buscas:</h5>
  <p>Si ya has eliminado las relaciones tóxicas de tu vida pero no sabes cómo crear y atraer relaciones SANAS...</p>         
 <p>Es hora de hacer algo al respecto.</p>
 <p>Haz clic en el botón que dice <b>Si, Me Quiero Registrar Ya!</b> para adquirir tu espacio ya en el Masterclass.</p>
-<a href="https://cuanto.app/elniñoviejo/p/124fbb" class="btn btn-primary btn-block">Si, Me Quiero Registrar Ya!</a>  
+<a href="https://cuanto.app/elniñoviejo/p/124fbb" class="btn btn-primary btn-block">Si, Me Quiero Registrar Ya!</a> 
+          
+<section class=" timer text-center font-weight-bold">
+  <!-- Display the countdown timer in an element -->
+<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Sept 4, 2019 20:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+// Get today's date and time
+var now = new Date().getTime();
+
+// Find the distance between now and the count down date
+var distance = countDownDate - now;
+
+// Time calculations for days, hours, minutes and seconds
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+// Display the result in the element with id="demo"
+document.getElementById("demo").innerHTML = days + "d " + hours + "h "
++ minutes + "m " + seconds + "s ";
+
+// If the count down is finished, write some text
+if (distance < 0) {
+clearInterval(x);
+document.getElementById("demo").innerHTML = "EXPIRED";
+}
+}, 1000);
+</script>
+</section>
 
   <p>Y eso no es todo...</p>
   <p class= "font-weight-bold">Tu inversión esta 100% protegida</p>
